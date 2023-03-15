@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/001.jpg" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="false" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="150" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="true" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="true" allowPanX="false" allowPanY="false" dragAcceleration="1" centerZoom="true" maxZoom="38" responsiveBaseWidth="3000" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="5" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots />
+  <images rows="1" highresWidth="3500" highresHeight="2333">
+    <image src="images/001.jpg">
+      <highres src="images/highres/001.jpg" />
+    </image>
+    <image src="images/002.jpg">
+      <highres src="images/highres/002.jpg" />
+    </image>
+    <image src="images/003.jpg">
+      <highres src="images/highres/003.jpg" />
+    </image>
+    <image src="images/004.jpg">
+      <highres src="images/highres/004.jpg" />
+    </image>
+    <image src="images/005.jpg">
+      <highres src="images/highres/005.jpg" />
+    </image>
+    <image src="images/006.jpg">
+      <highres src="images/highres/006.jpg" />
+    </image>
+    <image src="images/007.jpg">
+      <highres src="images/highres/007.jpg" />
+    </image>
+    <image src="images/008.jpg">
+      <highres src="images/highres/008.jpg" />
+    </image>
+    <image src="images/009.jpg">
+      <highres src="images/highres/009.jpg" />
+    </image>
+    <image src="images/010.jpg">
+      <highres src="images/highres/010.jpg" />
+    </image>
+    <image src="images/011.jpg">
+      <highres src="images/highres/011.jpg" />
+    </image>
+    <image src="images/012.jpg">
+      <highres src="images/highres/012.jpg" />
+    </image>
+    <image src="images/013.jpg">
+      <highres src="images/highres/013.jpg" />
+    </image>
+    <image src="images/014.jpg">
+      <highres src="images/highres/014.jpg" />
+    </image>
+    <image src="images/015.jpg">
+      <highres src="images/highres/015.jpg" />
+    </image>
+    <image src="images/016.jpg">
+      <highres src="images/highres/016.jpg" />
+    </image>
+    <image src="images/017.jpg">
+      <highres src="images/highres/017.jpg" />
+    </image>
+    <image src="images/018.jpg">
+      <highres src="images/highres/018.jpg" />
+    </image>
+    <image src="images/019.jpg">
+      <highres src="images/highres/019.jpg" />
+    </image>
+    <image src="images/020.jpg">
+      <highres src="images/highres/020.jpg" />
+    </image>
+    <image src="images/021.jpg">
+      <highres src="images/highres/021.jpg" />
+    </image>
+    <image src="images/022.jpg">
+      <highres src="images/highres/022.jpg" />
+    </image>
+    <image src="images/023.jpg">
+      <highres src="images/highres/023.jpg" />
+    </image>
+    <image src="images/024.jpg">
+      <highres src="images/highres/024.jpg" />
+    </image>
+    <image src="images/025.jpg">
+      <highres src="images/highres/025.jpg" />
+    </image>
+    <image src="images/026.jpg">
+      <highres src="images/highres/026.jpg" />
+    </image>
+    <image src="images/027.jpg">
+      <highres src="images/highres/027.jpg" />
+    </image>
+    <image src="images/028.jpg">
+      <highres src="images/highres/028.jpg" />
+    </image>
+    <image src="images/029.jpg">
+      <highres src="images/highres/029.jpg" />
+    </image>
+    <image src="images/030.jpg">
+      <highres src="images/highres/030.jpg" />
+    </image>
+    <image src="images/031.jpg">
+      <highres src="images/highres/031.jpg" />
+    </image>
+    <image src="images/032.jpg">
+      <highres src="images/highres/032.jpg" />
+    </image>
+  </images>
+</config>

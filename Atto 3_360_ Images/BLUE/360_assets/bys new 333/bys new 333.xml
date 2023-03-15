@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/001.jpg" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="false" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="150" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="true" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="true" allowPanX="false" allowPanY="false" dragAcceleration="1" centerZoom="true" maxZoom="38" responsiveBaseWidth="3000" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="5" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="Boot Space" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/Magic-Boot-Space-2.jpg" imgWidth="1300" />
+    </hotspot>
+    <hotspot id="7 air bags" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" contentFadeIn="75" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/7 Airbags.jpg" imgWidth="999" />
+    </hotspot>
+    <hotspot id="One touch EWlectric control" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/One-touch Electric Control Tailgate.jpg" imgWidth="999" />
+    </hotspot>
+    <hotspot id="Door open warning" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/Door Open Warning.jpg" imgWidth="999" />
+    </hotspot>
+    <hotspot id="LED Tail Lamp" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/One-Piece Through LED Taillight Strip.jpg" imgWidth="999" />
+    </hotspot>
+    <hotspot id="Ripple D pillar" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/Ripple D Pillar.jpg" imgWidth="999" />
+    </hotspot>
+    <hotspot id="LED Crtysral fron" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/Crystal LED Combination Headlights.jpg" imgWidth="999" />
+    </hotspot>
+    <hotspot id="NFC" renderMode="1" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" deactivateOnClick="true" minIndicatorScale="80" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/NFC Card Key.jpg" imgBkColor="#F6F6F6" imgWidth="999" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="3500" highresHeight="2333">
+    <image src="images/001.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="884" offsetY="1136" />
+      <highres src="images/highres/001.jpg" />
+    </image>
+    <image src="images/002.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="658" offsetY="1139" />
+      <highres src="images/highres/002.jpg" />
+    </image>
+    <image src="images/003.jpg">
+      <hotspot source="Ripple D pillar" offsetX="2389" offsetY="942" />
+      <highres src="images/highres/003.jpg" />
+    </image>
+    <image src="images/004.jpg">
+      <hotspot source="Ripple D pillar" offsetX="2387" offsetY="937" />
+      <highres src="images/highres/004.jpg" />
+    </image>
+    <image src="images/005.jpg">
+      <hotspot source="Ripple D pillar" offsetX="2337" offsetY="937" />
+      <highres src="images/highres/005.jpg" />
+    </image>
+    <image src="images/006.jpg">
+      <hotspot source="Ripple D pillar" offsetX="2252" offsetY="931" />
+      <highres src="images/highres/006.jpg" />
+    </image>
+    <image src="images/007.jpg">
+      <hotspot source="Door open warning" offsetX="873" offsetY="958" />
+      <hotspot source="LED Tail Lamp" offsetX="2629" offsetY="1034" />
+      <hotspot source="Ripple D pillar" offsetX="2130" offsetY="924" />
+      <highres src="images/highres/007.jpg" />
+    </image>
+    <image src="images/008.jpg">
+      <hotspot source="Door open warning" offsetX="801" offsetY="968" />
+      <hotspot source="LED Tail Lamp" offsetX="2516" offsetY="1032" />
+      <hotspot source="Ripple D pillar" offsetX="1978" offsetY="920" />
+      <highres src="images/highres/008.jpg" />
+    </image>
+    <image src="images/009.jpg">
+      <hotspot source="Boot Space" offsetX="2485" offsetY="1126" />
+      <hotspot source="One touch EWlectric control" offsetX="2491" offsetY="1246" />
+      <hotspot source="Door open warning" offsetX="778" offsetY="961" />
+      <hotspot source="LED Tail Lamp" offsetX="2343" offsetY="1032" />
+      <hotspot source="Ripple D pillar" offsetX="1800" offsetY="915" />
+      <highres src="images/highres/009.jpg" />
+    </image>
+    <image src="images/010.jpg">
+      <hotspot source="Boot Space" offsetX="2299" offsetY="1128" />
+      <hotspot source="One touch EWlectric control" offsetX="2302" offsetY="1246" />
+      <hotspot source="Door open warning" offsetX="784" offsetY="965" />
+      <hotspot source="LED Tail Lamp" offsetX="2131" offsetY="1023" />
+      <hotspot source="Ripple D pillar" offsetX="1604" offsetY="911" />
+      <highres src="images/highres/010.jpg" />
+    </image>
+    <image src="images/011.jpg">
+      <hotspot source="Boot Space" offsetX="2078" offsetY="1124" />
+      <hotspot source="One touch EWlectric control" offsetX="2078" offsetY="1244" />
+      <hotspot source="Door open warning" offsetX="807" offsetY="972" />
+      <hotspot source="LED Tail Lamp" offsetX="1883" offsetY="1019" />
+      <hotspot source="Ripple D pillar" offsetX="1407" offsetY="913" />
+      <highres src="images/highres/011.jpg" />
+    </image>
+    <image src="images/012.jpg">
+      <hotspot source="Boot Space" offsetX="1813" offsetY="1122" />
+      <hotspot source="One touch EWlectric control" offsetX="1811" offsetY="1244" />
+      <hotspot source="Door open warning" offsetX="848" offsetY="972" />
+      <hotspot source="LED Tail Lamp" offsetX="1612" offsetY="1021" />
+      <highres src="images/highres/012.jpg" />
+    </image>
+    <image src="images/013.jpg">
+      <hotspot source="Boot Space" offsetX="1443" offsetY="1111" />
+      <hotspot source="One touch EWlectric control" offsetX="1447" offsetY="1244" />
+      <hotspot source="LED Tail Lamp" offsetX="1251" offsetY="1017" />
+      <highres src="images/highres/013.jpg" />
+    </image>
+    <image src="images/014.jpg">
+      <hotspot source="Boot Space" offsetX="1180" offsetY="1113" />
+      <hotspot source="One touch EWlectric control" offsetX="1173" offsetY="1242" />
+      <hotspot source="LED Tail Lamp" offsetX="997" offsetY="1023" />
+      <highres src="images/highres/014.jpg" />
+    </image>
+    <image src="images/015.jpg">
+      <hotspot source="Boot Space" offsetX="822" offsetY="1117" />
+      <hotspot source="One touch EWlectric control" offsetX="813" offsetY="1242" />
+      <highres src="images/highres/015.jpg" />
+    </image>
+    <image src="images/016.jpg">
+      <hotspot source="Boot Space" offsetX="560" offsetY="1119" />
+      <hotspot source="One touch EWlectric control" offsetX="552" offsetY="1242" />
+      <highres src="images/highres/016.jpg" />
+    </image>
+    <image src="images/017.jpg">
+      <hotspot source="7 air bags" offsetX="1448" offsetY="723" />
+      <highres src="images/highres/017.jpg" />
+    </image>
+    <image src="images/018.jpg">
+      <hotspot source="7 air bags" offsetX="1356" offsetY="726" />
+      <highres src="images/highres/018.jpg" />
+    </image>
+    <image src="images/019.jpg">
+      <hotspot source="7 air bags" offsetX="1292" offsetY="723" />
+      <hotspot source="NFC" offsetX="1969" offsetY="1003" />
+      <highres src="images/highres/019.jpg" />
+    </image>
+    <image src="images/020.jpg">
+      <hotspot source="7 air bags" offsetX="1203" offsetY="726" />
+      <hotspot source="NFC" offsetX="1875" offsetY="1003" />
+      <highres src="images/highres/020.jpg" />
+    </image>
+    <image src="images/021.jpg">
+      <hotspot source="7 air bags" offsetX="1134" offsetY="729" />
+      <hotspot source="NFC" offsetX="1757" offsetY="1000" />
+      <highres src="images/highres/021.jpg" />
+    </image>
+    <image src="images/022.jpg">
+      <hotspot source="7 air bags" offsetX="1067" offsetY="733" />
+      <hotspot source="NFC" offsetX="1586" offsetY="1000" />
+      <highres src="images/highres/022.jpg" />
+    </image>
+    <image src="images/023.jpg">
+      <hotspot source="7 air bags" offsetX="1030" offsetY="735" />
+      <hotspot source="NFC" offsetX="1480" offsetY="997" />
+      <highres src="images/highres/023.jpg" />
+    </image>
+    <image src="images/024.jpg">
+      <hotspot source="7 air bags" offsetX="1003" offsetY="743" />
+      <hotspot source="NFC" offsetX="1346" offsetY="994" />
+      <highres src="images/highres/024.jpg" />
+    </image>
+    <image src="images/025.jpg">
+      <hotspot source="7 air bags" offsetX="1000" offsetY="743" />
+      <hotspot source="NFC" offsetX="1208" offsetY="988" />
+      <highres src="images/highres/025.jpg" />
+    </image>
+    <image src="images/026.jpg">
+      <hotspot source="NFC" offsetX="1084" offsetY="988" />
+      <highres src="images/highres/026.jpg" />
+    </image>
+    <image src="images/027.jpg">
+      <hotspot source="NFC" offsetX="969" offsetY="988" />
+      <highres src="images/highres/027.jpg" />
+    </image>
+    <image src="images/028.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="2132" offsetY="1153" />
+      <hotspot source="NFC" offsetX="874" offsetY="988" />
+      <highres src="images/highres/028.jpg" />
+    </image>
+    <image src="images/029.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="1913" offsetY="1151" />
+      <hotspot source="NFC" offsetX="808" offsetY="986" />
+      <highres src="images/highres/029.jpg" />
+    </image>
+    <image src="images/030.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="1653" offsetY="1151" />
+      <hotspot source="NFC" offsetX="753" offsetY="989" />
+      <highres src="images/highres/030.jpg" />
+    </image>
+    <image src="images/031.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="1384" offsetY="1148" />
+      <highres src="images/highres/031.jpg" />
+    </image>
+    <image src="images/032.jpg">
+      <hotspot source="LED Crtysral fron" offsetX="1110" offsetY="1141" />
+      <highres src="images/highres/032.jpg" />
+    </image>
+  </images>
+</config>

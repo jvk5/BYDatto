@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head>
+<title>BYD India</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+<!-- Use this meta tag on your mobile page -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<!-- Use these three includes on your pages under <head> section -->
+
+<link type="text/css" rel="stylesheet" href="imagerotator/html/css/basic.css"/>
+<script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style type= "text/css">
+
+/*-- Use #content CSS to customize size, position, border, etc of your 360 view --*/
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#content
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+</style>
+
+
+<!-- 
+    Copy this script block and paste under your page <head> section or somewhere inside your page <body>.
+    See API sections in the user guide for more details: https://webrotate360.s3.amazonaws.com/sites/webrotate360/downloads/Resources/Readme.pdf
+-->
+
+<script language="javascript" type="text/javascript">
+
+function loadBlue(e){
+    if(e!=null){
+        $('li span').removeClass('active');
+        $(e.target).addClass('active');
+    }
+    $("#wr360PlayerId").remove();
+
+   $("#content").append('<div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;"></div>');
+
+    jQuery('#wr360PlayerId').rotator({
+        licenseFileURL: 'BLUE/license.lic',
+        configFileURL: 'BLUE/360_assets/bys new 333/bys new 333.xml',
+        graphicsPath: 'BLUE/imagerotator/html/img/basic',
+        alt: '360 degree view - Blue full screen',
+        googleEventTracking: false,
+    });
+}
+
+jQuery(document).ready(function(){
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    // blue
+
+    loadBlue(null);
+    
+    
+
+});
+
+
+
+
+function loadgrey(e){
+
+    $('li span').removeClass('active');
+    $(e.target).addClass('active');
+
+    $("#wr360PlayerId").remove();
+
+$("#content").append('<div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;"></div>');
+        jQuery('#wr360PlayerId').rotator({
+            licenseFileURL: 'GREY/license.lic',
+            configFileURL: 'GREY/360_assets/grey/grey.xml',
+            graphicsPath: 'GREY/imagerotator/html/img/basic',
+            alt: '360 degree view - Blue exterior 360',
+            googleEventTracking: false
+        
+        });
+    }
+
+function loadSliver(e){
+
+    $('li span').removeClass('active');
+    $(e.target).addClass('active');
+    $("#wr360PlayerId").remove();
+
+$("#content").append('<div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;"></div>');
+        jQuery('#wr360PlayerId').rotator({
+            licenseFileURL: 'WHITE/license.lic',
+            configFileURL: 'WHITE/360_assets/whitenew latest/whitenew latest.xml',
+            graphicsPath: 'WHITE/imagerotator/html/img/basic',
+            alt: '360 degree view - mobile white',
+            googleEventTracking: false,
+
+        });
+}
+
+function loadgreen(e){
+    $('li span').removeClass('active');
+    $(e.target).addClass('active');
+    $("#wr360PlayerId").remove();
+
+    $("#content").append('<div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;"></div>');
+        jQuery('#wr360PlayerId').rotator({
+            licenseFileURL: 'Forest-Green/license.lic',
+            configFileURL: 'Forest-Green/360_assets/greenbyd/greenbyd.xml',
+            graphicsPath: 'Forest-Green/imagerotator/html/img/basic',
+            alt: '360 degree view - Green',
+            googleEventTracking: false,
+
+        });
+}
+
+function loadMaroon(e){
+    $('li span').removeClass('active');
+    $(e.target).addClass('active');
+
+    $("#wr360PlayerId").remove();
+
+$("#content").append('<div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;"></div>');
+    
+jQuery('#wr360PlayerId').rotator({
+    licenseFileURL: 'RED/license.lic',
+    configFileURL: 'RED/360_assets/red/red.xml',
+    graphicsPath: 'RED/imagerotator/html/img/basic',
+    alt: '360 degree view - mobile red',
+    googleEventTracking: false,
+
+});
+}
+
+</script>
+
+<!-- End of script copy / paste -->
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Just copy / paste the content div below onto your page and define content CSS styles as needed -->
+
+    <div class="top-right-sec">
+        <ol>
+            <li>
+                <a href="#" class="active">EXTERIOR</a>
+            </li>
+            <li>
+                <a href="Interior 360/index.htm">INTERIOR</a>
+            </li>
+        </ol>
+    </div>
+
+    <ol class="cars-color-menu">
+        <li><span class="blue active" onclick="loadBlue(event)"></span></li>
+        <li><span class="maroon" onclick="loadMaroon(event)"></span></li>
+        <li><span class="silver" onclick="loadSliver(event)"></span></li>
+        <li><span class="grey" onclick="loadgrey(event)"></span></li>
+        <li><span class="forestgreen" onclick="loadgreen(event)"></span></li>
+    </ol>
+
+    <div id="content">
+
+        <div id="wr360PlayerId" class="wr360_player" style="background-color:#FFFFFF;">
+        </div>
+
+        <!-- <div id="wr360PlayerId_gray" class="wr360_player" style="background-color:#FFFFFF;">
+        </div>
+
+        <div id="wr360PlayerId_silver" class="wr360_player" style="background-color:#FFFFFF;">
+        </div>
+
+        <div id="wr360PlayerId_red" class="wr360_player" style="background-color:#FFFFFF;">
+        </div> -->
+
+    </div>
+
+    
+
+    <style>
+
+        .cars-color-menu{
+            position: absolute;
+            z-index: 10;
+            list-style-type: none;
+            bottom: 50px;
+            width: 250px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .cars-color-menu li{
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cars-color-menu li span{
+            display:block;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+
+        .grey{
+            background-color: #828995;
+        }
+
+        .blue{
+            background-color: #00A5CC;
+        }
+
+        .silver{
+            background-color: #E7E9EA;
+        }
+
+        .maroon{
+            background-color: #9F1522;
+        }
+        .forestgreen{
+            background-color: #76ab75;
+        }
+        span.active{
+            outline: 2px solid #b1b1b1;
+            outline-offset: 3px;
+        }
+
+        .top-right-sec{
+            position: absolute; 
+            z-index: 5; 
+            right:80px;
+            top:20px;
+        }
+
+        .top-right-sec ol{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            background-color: #fff;
+            height: 33px;
+            border-radius: 7px;
+            padding-top: 2px;
+            padding-right: 3px;
+            padding-left: 3px;
+        }
+
+        .top-right-sec li{
+            float: left;
+        }
+
+        .top-right-sec li a{
+            background-color: #fff;
+            display: block;
+            padding: 5px 15px;
+            color: #636664;
+            text-decoration: none;
+            border-radius: 5px;
+            text-transform: capitalize;
+        }
+
+        .top-right-sec li a.active{
+            background-color: #636664;
+            color: #fff;
+        }
+
+        @media screen and (orientation:landscape) {
+        /* Your CSS Here*/
+        .cars-color-menu{
+           
+            bottom: 20px;
+        }
+        }
+    </style>
+
+<script>
+
+
+</script>
+</body>
+
+</html>
